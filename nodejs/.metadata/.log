@@ -1,0 +1,42 @@
+!SESSION 2016-11-01 17:00:08.532 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication E:\my1614\yztc_html5_repositorys\nodejs\node.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication E:\my1614\yztc_html5_repositorys\nodejs\node.js
+
+!ENTRY com.aptana.core 1 0 2016-11-01 17:00:11.074
+!MESSAGE (Build null) [INFO]  ide start check begin
+
+!ENTRY com.aptana.rcp 4 0 2016-11-01 17:00:11.199
+!MESSAGE (Build null) [ERROR]  getRawLocationURI: file:/E:/my1614/yztc_html5_repositorys/nodejs
+
+!ENTRY com.aptana.rcp 4 0 2016-11-01 17:00:11.246
+!MESSAGE (Build null) [ERROR]  checkInstanceLocation
+
+!ENTRY com.pandora.core.utils 4 0 2016-11-01 17:00:11.308
+!MESSAGE (Build null) [ERROR]  remote-debugging-port == 9222
+
+!ENTRY com.aptana.rcp 4 0 2016-11-01 17:00:11.386
+!MESSAGE (Build null) [ERROR]  init CEF
+
+!ENTRY org.eclipse.ui 2 0 2016-11-01 17:00:11.823
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-11-01 17:00:11.823
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY org.eclipse.ui 4 4 2016-11-01 17:00:13.789
+!MESSAGE Unable to create menu item "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction", command "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" not defined
+
+!ENTRY com.aptana.scripting 4 0 2016-11-01 17:00:20.965
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2016-11-01 17:00:20.965
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2016-11-01 17:00:28.750
+!MESSAGE (Build null) [ERROR]  ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2016-11-01 17:00:28.750
+!MESSAGE check mode

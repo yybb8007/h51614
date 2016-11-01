@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'myNodeJsApp-0.1.1.tgz' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData myNodeJsApp-0.1.1.tgz
+8 silly fetchOtherPackageData myNodeJsApp-0.1.1.tgz
+9 silly cache add args [ 'myNodeJsApp-0.1.1.tgz', null ]
+10 verbose cache add spec myNodeJsApp-0.1.1.tgz
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'myNodeJsApp-0.1.1.tgz',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'myNodeJsApp-0.1.1.tgz',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'myNodeJsApp-0.1.1.tgz',
+11 silly cache add   spec: 'E:\\my1614\\yztc_html5_repositorys\\nodejs\\myNodeJsApp\\myNodeJsApp-0.1.1.tgz',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) af7c682d842f347080074f67cc82507c38ccdfc6
+13 verbose addTmpTarball E:\my1614\yztc_html5_repositorys\nodejs\myNodeJsApp\myNodeJsApp-0.1.1.tgz not in flight; adding
+14 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from E:\my1614\yztc_html5_repositorys\nodejs\myNodeJsApp\myNodeJsApp-0.1.1.tgz
+16 verbose tar unpack E:\my1614\yztc_html5_repositorys\nodejs\myNodeJsApp\myNodeJsApp-0.1.1.tgz
+17 verbose tar unpacking to C:\Users\ADMINI~1\AppData\Local\Temp\npm-4572-bbd44635\unpack-4df8953a
+18 silly gentlyRm C:\Users\ADMINI~1\AppData\Local\Temp\npm-4572-bbd44635\unpack-4df8953a is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\ADMINI~1\AppData\Local\Temp\npm-4572-bbd44635\unpack-4df8953a
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 silly gunzTarPerm extractEntry package.json
+22 silly gunzTarPerm extractEntry README.md
+23 silly gunzTarPerm extractEntry myNodeJsApp.js
+24 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly cache afterAdd myNodeJsApp@0.1.1
+26 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\myNodeJsApp\0.1.1\package\package.json not in flight; writing
+27 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\myNodeJsApp\0.1.1\package\package.json written
+29 silly install normalizeTree
+30 silly loadCurrentTree Finishing
+31 silly loadIdealTree Starting
+32 silly install loadIdealTree
+33 silly cloneCurrentTree Starting
+34 silly install cloneCurrentTreeToIdealTree
+35 silly cloneCurrentTree Finishing
+36 silly loadShrinkwrap Starting
+37 silly install loadShrinkwrap
+38 silly loadShrinkwrap Finishing
+39 silly loadAllDepsIntoIdealTree Starting
+40 silly install loadAllDepsIntoIdealTree
+41 silly rollbackFailedOptional Starting
+42 silly rollbackFailedOptional Finishing
+43 silly runTopLevelLifecycles Finishing
+44 silly install printInstalled
+45 verbose stack Error: Refusing to install myNodeJsApp as a dependency of itself
+45 verbose stack     at checkSelf (D:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+45 verbose stack     at Array.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+45 verbose stack     at LOOP (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+45 verbose stack     at chain (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+45 verbose stack     at D:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+45 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+45 verbose stack     at Array.forEach (native)
+45 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+45 verbose stack     at Array.forEach (native)
+45 verbose stack     at asyncMap (D:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+46 verbose cwd E:\my1614\yztc_html5_repositorys\nodejs\myNodeJsApp
+47 error Windows_NT 6.1.7601
+48 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "myNodeJsApp-0.1.1.tgz"
+49 error node v7.0.0
+50 error npm  v3.10.8
+51 error code ENOSELF
+52 error Refusing to install myNodeJsApp as a dependency of itself
+53 error If you need help, you may report this error at:
+53 error     <https://github.com/npm/npm/issues>
+54 verbose exit [ 1, true ]
