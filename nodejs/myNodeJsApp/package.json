@@ -6,7 +6,7 @@
 	"main" : "myNodeJsApp",
 	"repository" : {
 		"type" : "git",
-		"url" : "地址"
+		"url" : "https://github.com/yybb8007/h51614/tree/master/nodejs/myNodeJsApp"
 	},
 	"keywords" : {
 		"censor" : "words"
