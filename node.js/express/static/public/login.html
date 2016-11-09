@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-3.1.1.js"></script>
+	<style type="text/css">
+		ul{
+			list-style: none;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<ul>
+			<li>用户名：<input type="text" name="username"></li>
+			<li>密　码：<input type="text" name="password"></li>
+			<li><button>登陆</button></li>
+		</ul>
+	</form>
+
+	<script>
+		$(function(){
+			$("button").click(function(e){
+				e.preventDefault();
+				var username = $("input:first").val();
+				var pwd = $("input:last").val();
+				var obj = {};
+				obj.username = username;
+				obj.pwd = pwd;
+				$.ajax({
+					url:"http://10.0.161.108:7000/login/" + username + "/" + pwd,
+					data:,
+					type:"get",
+					success:fn
+				})
+			})
+		})
+
+		// $(function(){
+		// 	$("button").click(function(e){
+		// 		e.preventDefault();
+		// 		var username = $("input:first").val();
+		// 		var pwd = $("input:last").val();
+		// 		$.ajax({
+		// 			url:"http://10.0.161.108:7000/login/" + username + "/" + pwd,
+		// 			type:"get",
+		// 			success:function(data){
+		// 				console.log(data);
+		// 				if (data.statusCode == "yes") {
+		// 					console.log("success" + data);
+		// 				} else{
+		// 					console.log("错误");
+		// 				}
+		// 			}
+		// 		})
+		// 	})
+		// })
+
+	</script>
+	
+
+
+</body>
+</html>
